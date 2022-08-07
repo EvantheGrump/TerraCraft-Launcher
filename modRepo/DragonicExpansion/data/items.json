@@ -1,0 +1,421 @@
+[  
+  {
+    "draconic_core": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\draconic_core.png",
+      "group": "GROUP_MATERIAL"
+    }
+  }, 
+  {
+    "draconium_dust": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\draconium_dust.png",
+      "group": "GROUP_MATERIAL"
+    }
+  },
+  {
+    "draconium_ingot": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\ingot.png",
+      "iconColor": [ 255 , 148 , 0 , 211 ],
+      "group": "GROUP_INGOT"
+    }
+  },
+  {
+    "wyvern_core": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\wyvern_core.png",
+      "group": "GROUP_MATERIAL"
+    }
+  },
+  {
+    "awakened_core": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\awakened_core.png",
+      "group": "GROUP_MATERIAL"
+    }
+  },
+  {
+    "awakened_draconium_ingot": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\ingot.png",
+      "iconColor": [ 255 , 255 , 131 , 0 ],
+      "group": "GROUP_INGOT"
+    }
+  },
+  {
+    "awakened_draconium_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "items\\icons\\blocks\\block_awakened_draconium.png",
+      "group": "GROUP_ORE_BLOCK",
+      "blockId": "block_awakened_draconium"
+    }
+  },
+  {
+    "draconium_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "items\\icons\\blocks\\block_draconium.png",
+      "group": "GROUP_ORE_BLOCK",
+      "blockId": "block_draconium"
+    }
+  },
+  {
+    "charged_draconium_block": {
+      "type": "BLOCKS",
+      "iconTextureData": "items\\icons\\blocks\\block_charged_draconium.png",
+      "group": "GROUP_ORE_BLOCK",
+      "blockId": "block_charged_draconium"
+    }
+  },
+  {
+    "dragon_heart": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\dragon_heart.png",
+      "group": "GROUP_MATERIAL"
+    }
+  },
+  {
+    "awakened_energy_core": {
+      "type": "PROJECTILES",
+      "iconTextureData": "items\\icons\\materials\\awakened_energy_core.png",
+      "group": "GROUP_BOMB",
+	  "projectileId": "Awakened_Energy_Bomb",
+      "speed": 15.0,
+      "dropable": true,
+      "damage": 100,
+      "knockBack": 8,
+      "coldTime": 180,
+      "shootable": true
+    }
+  },
+  {
+    "wyvern_energy_core": {
+      "type": "PROJECTILES",
+      "iconTextureData": "items\\icons\\materials\\wyvern_energy_core.png",
+      "group": "GROUP_BOMB",
+	  "projectileId": "Energy_Bomb",
+      "speed": 15.0,
+      "dropable": true,
+      "damage": 50,
+      "knockBack": 8,
+      "coldTime": 180,
+      "shootable": true
+    }
+  },
+  {
+    "wyvern_sword": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_sword.png",
+      "textureData": "items\\entities\\wyvern_sword.png",
+      "group": "GROUP_SWORD",
+      "toolType": "SWORD",
+      "ai": "sword",
+      "coldTime": 24,
+      "entityWidth": 22,
+      "entityHeight": 62,
+      "handX": 10,
+      "handY": 50,
+      "holdType": "NORMAL",
+      "durable": 20000,
+      "damage": 20,
+      "knockBack": 5,
+      "crit": 5,
+      "isNoBreaking": true,
+      "antiLava": true
+    }
+  },
+  {
+    "wyvern_pickaxe": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_pickaxe.png",
+      "textureData": "items\\entities\\wyvern_pickaxe.png",
+      "group": "GROUP_PICKAXE",
+      "toolType": "PICKAXE",
+      "toolGrade": "DIAMOND",
+      "efficiency": 7.0,
+      "ai": "pickaxe",
+      "coldTime": 16,
+      "entityWidth": 30,
+      "entityHeight": 38,
+      "handX": 16,
+      "handY": 26,
+      "holdType": "NORMAL",
+      "durable": 20000,
+      "damage": 10,
+      "knockBack": 1,
+      "isNoBreaking": true,
+      "crit": 1
+    }
+  },
+  {
+    "wyvern_axe": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_axe.png",
+      "textureData": "items\\entities\\wyvern_axe.png",
+      "group": "GROUP_AXE",
+      "toolType": "AXE",
+      "toolGrade": "DIAMOND",
+      "efficiency": 7.0,
+      "ai": "axe",
+      "coldTime": 16,
+      "entityWidth": 22,
+      "entityHeight": 40,
+      "handX": 8,
+      "handY": 32,
+      "holdType": "NORMAL",
+      "durable": 20000,
+      "damage": 14,
+      "knockBack": 1,
+      "isNoBreaking": true,
+      "crit": 1
+    }
+  },
+  {
+    "wyvern_bow": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_bow.png",
+      "textureData": "items\\entities\\wyvern_bow.png",
+      "group": "GROUP_BOW",
+      "toolType": "BOW",
+      "ai": "bow",
+      "ammo": "arrow",
+      "entityWidth": 22,
+      "entityHeight": 36,
+      "handX": 12,
+      "handY": 18,
+      "fireX": 22,
+      "fireY": 18,
+      "noConsumeChance": 0.5,
+      "speed": 20.0,
+      "deviation": 0.05,
+      "shootTimes": 1,
+      "ammoLevel": 3,
+      "shootProjectileId": "star_arrow",
+      "usePosture": 1,
+      "useSound": "bow",
+      "coldTime": 30,
+      "holdType": "NORMAL",
+      "twoHands": true,
+      "durable": 20000,
+      "damage": 15,
+      "knockBack": 5,
+      "isNoBreaking": true,
+      "crit": 5
+    }
+  },
+  {
+    "draconic_sword": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_sword.png",
+      "textureData": "items\\entities\\draconic_sword.png",
+      "group": "GROUP_SWORD",
+      "toolType": "SWORD",
+      "ai": "sword",
+      "coldTime": 24,
+      "entityWidth": 22,
+      "entityHeight": 62,
+      "handX": 10,
+      "handY": 50,
+      "holdType": "NORMAL",
+      "durable": 40000,
+      "damage": 30,
+      "knockBack": 5,
+      "crit": 10,
+      "isNoBreaking": true,
+      "antiLava": true
+    }
+  },
+  {
+    "draconic_pickaxe": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_pickaxe.png",
+      "textureData": "items\\entities\\draconic_pickaxe.png",
+      "group": "GROUP_PICKAXE",
+      "toolType": "PICKAXE",
+      "toolGrade": "DIAMOND",
+      "efficiency": 8.5,
+      "ai": "pickaxe",
+      "coldTime": 10,
+      "entityWidth": 30,
+      "entityHeight": 38,
+      "handX": 16,
+      "handY": 26,
+      "holdType": "NORMAL",
+      "durable": 40000,
+      "damage": 15,
+      "knockBack": 1,
+      "isNoBreaking": true,
+      "crit": 5
+    }
+  },
+  {
+    "draconic_axe": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_axe.png",
+      "textureData": "items\\entities\\draconic_axe.png",
+      "group": "GROUP_AXE",
+      "toolType": "AXE",
+      "toolGrade": "DIAMOND",
+      "efficiency": 8.5,
+      "ai": "axe",
+      "coldTime": 10,
+      "entityWidth": 22,
+      "entityHeight": 40,
+      "handX": 8,
+      "handY": 32,
+      "holdType": "NORMAL",
+      "durable": 40000,
+      "damage": 17,
+      "knockBack": 1,
+      "isNoBreaking": true,
+      "crit": 3
+    }
+  },
+  {
+    "draconic_bow": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_bow.png",
+      "textureData": "items\\entities\\draconic_bow.png",
+      "group": "GROUP_BOW",
+      "toolType": "BOW",
+      "ai": "bow",
+      "entityWidth": 22,
+      "entityHeight": 36,
+      "handX": 12,
+      "handY": 18,
+      "fireX": 22,
+      "fireY": 18,
+      "noConsumeChance": 1.0,
+      "ammo": "arrow",
+      "speed": 25.0,
+      "deviation": 0.05,
+      "shootTimes": 1,
+      "ammoLevel": 3,
+      "shootProjectileId": "star_arrow",
+      "usePosture": 1,
+      "useSound": "bow",
+      "coldTime": 25,
+      "holdType": "NORMAL",
+      "twoHands": true,
+      "durable": 40000,
+      "damage": 20,
+      "knockBack": 5,
+      "isNoBreaking": true,
+      "crit": 5
+    }
+  },
+  {	
+    "staff_of_power": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\staff_of_power.png",
+      "textureData": "items\\entities\\staff_of_power.png",
+      "group": "GROUP_PICKAXE",
+      "toolType": "PICKAXE",
+      "toolGrade": "DIAMOND",
+      "efficiency": 8.5,
+      "ai": "pickaxe",
+      "coldTime": 20,
+      "entityWidth": 30,
+      "entityHeight": 38,
+      "handX": 16,
+      "handY": 26,
+      "holdType": "NORMAL",
+      "durable": 80000,
+      "damage": 50,
+      "knockBack": 1,
+      "isNoBreaking": true,
+      "crit": 25
+    }
+  },
+  {
+    "wyvern_helmet": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_helmet.png",
+      "textureData": "items\\armors\\wyvern\\hat.png",
+      "showHair": false,
+      "group": "GROUP_HELMET",
+      "toolType": "HELMET",
+      "isArmor": true,
+      "defense": 8,
+      "isNoBreaking": true,
+      "durable": 40000
+    }
+  },
+  {
+    "wyvern_chestplate": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_chestplate.png",
+      "textureData": "items\\armors\\wyvern\\body.png",
+      "showHair": false,
+      "group": "GROUP_CHESTPLATE",
+      "toolType": "CHESTPLATE",
+      "isArmor": true,
+      "defense": 11,
+      "isNoBreaking": true,
+      "durable": 40000
+    }
+  },
+  {
+    "wyvern_leggings": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\wyvern_leggings.png",
+      "textureData": "items\\armors\\wyvern\\leg.png",
+      "showHair": false,
+      "group": "GROUP_LEGGINGS",
+      "toolType": "LEGGINGS",
+      "isArmor": true,
+      "defense": 9,
+      "isNoBreaking": true,
+      "durable": 40000
+    }
+  },
+  {
+    "draconic_helmet": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_helmet.png",
+      "textureData": "items\\armors\\draconic\\hat.png",
+      "showHair": false,
+      "group": "GROUP_HELMET",
+      "toolType": "HELMET",
+      "isArmor": true,
+      "defense": 13,
+      "isNoBreaking": true,
+      "durable": 40000
+    }
+  },
+  {
+    "draconic_chestplate": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_chestplate.png",
+      "textureData": "items\\armors\\draconic\\body.png",
+      "showHair": false,
+      "group": "GROUP_CHESTPLATE",
+      "toolType": "CHESTPLATE",
+      "isArmor": true,
+      "defense": 16,
+      "isNoBreaking": true,
+      "durable": 40000
+    }
+  },
+  {
+    "draconic_leggings": {
+      "type": "TOOLS",
+      "iconTextureData": "items\\icons\\tools\\draconic_leggings.png",
+      "textureData": "items\\armors\\draconic\\leg.png",
+      "showHair": false,
+      "group": "GROUP_LEGGINGS",
+      "toolType": "LEGGINGS",
+      "isArmor": true,
+      "defense": 14,
+      "isNoBreaking": true,
+      "durable": 40000
+    }
+  },
+  {
+    "nether_starite": {
+      "type": "MATERIALS",
+      "iconTextureData": "items\\icons\\materials\\nether_starite.png",
+      "group": "GROUP_MATERIAL"
+    }
+  }
+]

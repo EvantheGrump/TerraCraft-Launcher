@@ -1,0 +1,44 @@
+[
+  {
+    "Energy_Bomb": {
+      "ai": "Bomb",
+      "textureData": "items\\icons\\materials\\wyvern_energy_core.png",
+      "width": 32,
+      "height": 32,
+      "gfxWidth": 32,
+      "gfxHeight": 32,
+      "hots": [[18, 4]],
+      "frameStyle": 1,
+      "frames": 1,
+      "frameSpeed": 8,
+      "shape": "BOX",
+      "maxSpeed": 16.0,
+      "gravity": true,
+      "foreground": false,
+      "fixByBlocks": true,
+      "througthBlock": false,
+      "keepStrick": true
+    }
+  },
+  {
+    "Awakened_Energy_Bomb": {
+      "ai": "Bomb",
+      "textureData": "items\\icons\\materials\\awakened_energy_core.png",
+      "width": 32,
+      "height": 32,
+      "gfxWidth": 32,
+      "gfxHeight": 32,
+      "hots": [[18, 4]],
+      "frameStyle": 1,
+      "frames": 1,
+      "frameSpeed": 8,
+      "shape": "BOX",
+      "maxSpeed": 30.0,
+      "gravity": true,
+      "foreground": false,
+      "fixByBlocks": true,
+      "througthBlock": false,
+      "keepStrick": true
+    }
+  }
+]

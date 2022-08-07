@@ -1,0 +1,98 @@
+[
+  {
+    "ore_draconium": {
+      "textureData": "tiles\\ore_draconium.png",
+      "color": [ 96 , 19 , 144 ],
+      "renderMode": "RENDER_CUT",
+      "renderSortedInterval": 4,
+      "type": "TILE",
+      "group": "ORE_IRON",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "DIAMOND",
+      "hardness": 240,
+      "slipperiness": 1.0,
+      "isChipCollection": true,
+      "lossyItemId": "draconium_dust",
+      "chipCount": [1, 4],
+      "gravity": false,
+      "allowSlope": true,
+      "isWallDark": true,
+      "wallCheck": "GENERABLE",
+      "soundGroupId": "tink",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 96 , 19 , 144 ],
+      "exParticle": "ore_particle"
+    }
+  },
+  {
+    "block_draconium": {
+      "textureData": "tiles\\block_draconium.png",
+      "color": [ 186, 230, 234 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 240,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 188, 233, 233 ]
+    }
+  },
+  {
+    "block_awakened_draconium": {
+      "textureData": "tiles\\block_awakened_draconium.png",
+      "color": [ 255 , 131 , 0 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 240,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 255 , 131 , 0 ]
+    }
+  },
+  {
+    "block_charged_draconium": {
+      "textureData": "tiles\\block_charged_draconium.png",
+      "color": [ 186, 230, 234 ],
+      "renderMode": "RENDER_BLOCK",
+      "renderSortedInterval": 2,
+      "type": "TILE",
+      "group": "ARTIFICAL",
+      "collision": "SOLID",
+      "lightOpacity": 3,
+      "toolType": "PICKAXE",
+      "mineGrade": "IRON",
+      "hardness": 240,
+      "slipperiness": 1.0,
+      "gravity": false,
+      "allowSlope": false,
+      "isWallDark": false,
+      "wallCheck": "NO_GENERABLE",
+      "soundGroupId": "stone",
+      "stepSoundGroupId": "step_stone",
+      "particleColor": [ 255, 188, 233, 233 ]
+    }
+  }
+]

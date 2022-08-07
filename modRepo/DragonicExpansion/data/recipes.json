@@ -1,0 +1,566 @@
+[
+  {
+    "config": "Smelt",
+    "pattern": [ "A" ],
+    "results": [
+      {
+        "id": "draconium_ingot",
+        "count": 1
+      }
+    ],
+    "elements": [ [ "A", "draconium_dust" ] ],
+    "exData": { "time": 40 }
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_core",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "CAC",
+      "ABA",
+      "CAC"
+    ],
+    "elements": [
+      [ "A", "draconium_ingot" ],
+      [ "B", "diamond" ],
+      [ "C", "gold_ingot"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "dragon_heart",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "CAC",
+      "ABA",
+      "CAC"
+    ],
+    "elements": [
+      [ "A", "draconium_ingot" ],
+      [ "B", "nether_starite" ],
+      [ "C", "gold_ingot"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "awakened_core",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "BAB",
+      "ABA",
+      "BAB"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "awakened_draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_core",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "CAC",
+      "ABA",
+      "CAC"
+    ],
+    "elements": [
+      [ "A", "draconic_core" ],
+      [ "B", "nether_starite" ],
+      [ "C", "draconium_ingot"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "awakened_draconium_block",
+        "count": 4
+      }
+    ],
+    "pattern": [
+      "COC",
+      "CBC",
+      "CAC"
+    ],
+    "elements": [
+      [ "A", "dragon_heart" ],
+      [ "B", "charged_draconium_block" ],
+      [ "C", "wyvern_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "charged_draconium_block",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "AAO",
+      "AAO",
+      "OOO"
+    ],
+    "elements": [
+      [ "A", "draconium_block" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconium_block",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "elements": [
+      [ "A", "draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconium_ingot",
+        "count": 9
+      }
+    ],
+    "pattern": [
+      "AOO",
+      "OOO",
+      "OOO"
+    ],
+    "elements": [
+      [ "A", "draconium_block" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "awakened_draconium_block",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "elements": [
+      [ "A", "awakened_draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "awakened_draconium_ingot",
+        "count": 9
+      }
+    ],
+    "pattern": [
+      "AOO",
+      "OOO",
+      "OOO"
+    ],
+    "elements": [
+      [ "A", "awakened_draconium_block" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconium_block",
+        "count": 4
+      }
+    ],
+    "pattern": [
+      "AOO",
+      "OOO",
+      "OOO"
+    ],
+    "elements": [
+      [ "A", "charged_draconium_block" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "nether_starite",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "elements": [
+      [ "A", "blaze_powder" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_energy_core",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "CAC",
+      "ABA",
+      "CAC"
+    ],
+    "elements": [
+      [ "A", "block_redstone" ],
+      [ "B", "draconic_core" ],
+      [ "C", "draconium_ingot"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_sword",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "diamond_sword" ],
+      [ "C", "draconium_ingot"],
+      [ "D", "wyvern_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "awakened_energy_core",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "CAC",
+      "ABA",
+      "CAC"
+    ],
+    "elements": [
+      [ "A", "wyvern_energy_core" ],
+      [ "B", "wyvern_core" ],
+      [ "C", "awakened_draconium_ingot"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_pickaxe",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "diamond_pickaxe" ],
+      [ "C", "draconium_ingot"],
+      [ "D", "wyvern_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_axe",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "diamond_axe" ],
+      [ "C", "draconium_ingot"],
+      [ "D", "wyvern_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_bow",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "wooden_bow" ],
+      [ "C", "draconium_ingot"],
+      [ "D", "wyvern_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_sword",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_sword" ],
+      [ "C", "awakened_draconium_ingot"],
+      [ "D", "awakened_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_pickaxe",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_pickaxe" ],
+      [ "C", "awakened_draconium_ingot"],
+      [ "D", "awakened_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_axe",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_axe" ],
+      [ "C", "awakened_draconium_ingot"],
+      [ "D", "awakened_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_bow",
+        "count": 1
+      }
+    ],
+    "pattern": [
+      "OAO",
+      "CBC",
+      "ODO"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_bow" ],
+      [ "C", "awakened_draconium_ingot"],
+      [ "D", "awakened_energy_core"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "staff_of_power",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "EAE",
+      "BEC",
+      "EDE"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "draconic_pickaxe" ],
+      [ "C", "draconic_axe"],
+      [ "D", "draconic_sword"],
+      [ "E", "awakened_draconium_ingot"]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_helmet",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "DAD",
+      "DBD",
+      "DCD"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "diamond_helmet" ],
+      [ "C", "wyvern_energy_core" ],
+	  [ "D", "draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_chestplate",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "DAD",
+      "DBD",
+      "DCD"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "diamond_chestplate" ],
+      [ "C", "wyvern_energy_core" ],
+	  [ "D", "draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "wyvern_leggings",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "DAD",
+      "DBD",
+      "DCD"
+    ],
+    "elements": [
+      [ "A", "wyvern_core" ],
+      [ "B", "diamond_leggings" ],
+      [ "C", "wyvern_energy_core" ],
+	  [ "D", "draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_helmet",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "DAD",
+      "DBD",
+      "DCD"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_helmet" ],
+      [ "C", "awakened_energy_core" ],
+	  [ "D", "awakened_draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_chestplate",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "DAD",
+      "DBD",
+      "DCD"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_chestplate" ],
+      [ "C", "awakened_energy_core" ],
+	  [ "D", "awakened_draconium_ingot" ]
+    ]
+  },
+  {
+    "config": "Craft3x",
+    "results": [
+      {
+        "id": "draconic_leggings",
+        "count": 1
+      }	
+    ],
+    "pattern": [
+      "DAD",
+      "DBD",
+      "DCD"
+    ],
+    "elements": [
+      [ "A", "awakened_core" ],
+      [ "B", "wyvern_leggings" ],
+      [ "C", "awakened_energy_core" ],
+	  [ "D", "awakened_draconium_ingot" ]
+    ]
+  }
+]

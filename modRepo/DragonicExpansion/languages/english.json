@@ -1,0 +1,32 @@
+{
+"items": [
+         ["draconic_core","Draconic Core","A powerful matter imbued with draconic essence."],
+         ["draconium_dust","Draconium Dust","Flakes of draconic matter that can be forged into something destructive..."],
+         ["draconium_ingot","Draconium Ingot","An ingot forged from draconic matters, it radiates a concentrated amount of draconic essence."],
+         ["wyvern_core","Wyvern Core","Highly concentrated amount of draconic essence that fills an entire room with draconic essence."],
+         ["awakened_core","Awakened Core","An unsafe amount of draconic essence that will destroy an entire village."],
+         ["awakened_draconium_ingot","Awakened Draconium Ingot","An ingot of destruction."],
+         ["awakened_draconium_block","Awakened Draconium Block","The cube of destruction."],
+         ["draconium_block","Draconium Block","A cube which is made from a large amount of Draconium compressed."],
+         ["charged_draconium_block","Charged Draconium Block","The result of further compression of Draconium, this cube feels like it could destroy an entire house."],
+         ["dragon_heart","Dragon Heart","The heart of a dragon, consists of multiple nether materials and draconic essence."],
+         ["awakened_energy_core","Awakened Energy Core","A dangerous amount of draconic essense had been concentrated into this matter, will put a crater into your place if not handled correctly."],
+         ["wyvern_energy_core","Wyvern Energy Core","A concerning amount of concentrated draconic essence, can be used for medium sized mining operations."],
+         ["wyvern_sword","Sword of the Wyvern","A sword forged from the essences of legendary dragons, by a legendary warrior."],
+         ["wyvern_pickaxe","Pickaxe of the Wyvern","A pickaxe forged from the essences of legendary dragons, by a legendary miner."],
+         ["wyvern_axe","Axe of the Wyvern","An axe forged from the essences of legendary dragons, by a legendary feller."],
+         ["wyvern_bow","Bow of the Wyvern","A bow forged from the essences of legendary dragons, by a legendary bowman."],
+         ["draconic_sword","Draconic Sword","A legendary sword forged from the mythical dragon, legends and myth mentions of a mythical hero who had forged this instrument of destruction."],
+         ["draconic_pickaxe","Draconic Pickaxe","A legendary pickaxe forged from the mythical dragon, legends and myth mentions of a mythical prospector who had forged this instrument of abundance."],
+         ["draconic_axe","Draconic Axe","A legendary axe forged from the mythical dragon, legends and myth mentions of a mythical barbarian who had forged this instrument of war."],
+         ["draconic_bow","Draconic Bow","A legendary bow forged from the mythical dragon, legends and myth mentions of a mythical archer who had forged this instrument of death."],
+         ["staff_of_power","Staff of Power","You have forged this instrument of balance, everything will return to the state that all things should be."],
+         ["wyvern_helmet","Wyvern Helmet","A replica of the mythical dragon's wit."],
+         ["wyvern_chestplate","Wyvern Chestplate","A replica of the mythical dragon's defence."],
+         ["wyvern_leggings","Wyvern Leggings","A replica of the mythical dragon's agility."],
+         ["draconic_helmet","Draconic Helmet","The mythical dragon's headpiece of intelligence."],
+         ["draconic_chestplate","Wyvern Chestplate","The mythical dragon's mail of absolute strength."],
+         ["draconic_leggings","Wyvern Leggings","The mythical dragon's calves of dexterity."],
+         ["nether_starite","Nether Starite","The deep reaches for the sky."]
+]
+}

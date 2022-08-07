@@ -1,0 +1,8 @@
+{
+"ores":[{
+	"oreId":"ore_draconium",
+	"density": 100,
+	"radius":   5,
+	"startYi": 750,
+	"endYi":  2560}]
+}

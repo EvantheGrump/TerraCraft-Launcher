@@ -1,0 +1,50 @@
+[
+  {
+    "chaos_dragon": {
+      "ai": "Waste_Ghost",
+      "textureData": "npcs\\chaos_dragon.png",
+      "type": "BOSS",
+      "width": 240,
+      "height": 200,
+      "gfxWidth": 360,
+      "gfxHeight": 320,
+      "gfxOffsetX": -60,
+      "gfxOffsetY": -60,
+      "frameStyle": 1,
+      "frames": 4,
+      "frameSpeed": 8,
+      "shape": "BOX",
+      "maxSpeed": 9.0,
+      "jumpForce": 12.0,
+      "disappearTime": 750,
+      "spawnCount": 1.0,
+      "health": 200,
+      "defense": 20,
+      "attack": 20,
+      "knockBack": 10,
+      "knockBackDefense": 0.80,
+      "gravity": false,
+      "climbWall": false,
+      "foreground": false,
+      "noFixByBlock": false,
+      "friendly": false,
+      "exps": 200,
+      "sunBurning": false,
+      "angry": true,
+      "antiLava": true,
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [
+        {
+          "item": "dragon_heart",
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "special": 0,
+      "paticularColor": [ 255, 33, 33, 33 ],
+      "spawn": "AIR",
+      "magicRate": 1
+    }
+  }
+]

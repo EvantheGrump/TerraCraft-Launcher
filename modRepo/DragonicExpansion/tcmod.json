@@ -1,0 +1,12 @@
+{
+  "modid": "dragonicex",
+  "displayName": "Dragonic Expansion",
+  "description": "Draconic Evolution in TerraCraft!",
+  "version": "1.0.0.0",
+  "tcVersion": "Indev 1.0",
+  "useSaver": true,
+  "authorList": [
+    "Morgenni"
+  ],
+  "credits": "Draconic Evolution was originally made by brandon3055 for Minecraft, please give them some support!"
+}
