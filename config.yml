@@ -1,0 +1,2 @@
+- name: Upload To Github Release
+  uses: xresloader/upload-to-github-release@v1.3.9
