@@ -1,7 +1,0 @@
-uses: xresloader/upload-to-github-release@v1
-env:
-  GITHUB_TOKEN: $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
-with:
-  file: "TCL.exe"
-  tags: true
-  draft: true
