@@ -1,5 +1,5 @@
 # TerraCraft Launcher
-A launcher for the TerraCraft game by skyblueyoshi
+A launcher for TerraCraft by skyblueyoshi
 
 Releases: https://github.com/GrumpyEvan/TerraCraft-Launcher/releases
 
